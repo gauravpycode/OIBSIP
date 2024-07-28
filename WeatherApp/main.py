@@ -20,7 +20,7 @@ dt = datetime.datetime.now()
 cloudy_img = CTkImage(Image.open("Images/cloud.png"), size=(200,200))
 sunny_img = CTkImage(Image.open("Images/sun.png"), size=(200,200))
 rainy_img = CTkImage(Image.open("Images/heavy-rain.png"), size=(200,200))
-api_key = "c0abe7ede2ef805927c6d1dc0c2178c8"
+api_key = "" # Your OpenWeatherMap API key
  
  
 def city_name():
